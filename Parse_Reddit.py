@@ -3,7 +3,7 @@ import  json
 import pandas as pd
 from datetime import datetime
 
-# reads in zst files downloaded from https://files.pushshift.io/reddit/comments/
+# reads in zst files downloaded from e.g. https://files.pushshift.io/reddit/comments/
 # only retains data for subreddits I specify: eg. ('wallstreetbets', 'dogecoin')
 # from the json, creates a separate dataframe for each specified subreddit
 # writes out dataframe as .csv
