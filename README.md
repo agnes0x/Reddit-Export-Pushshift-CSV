@@ -19,6 +19,7 @@ Download the .zst compressed JSON files of:
 [posts](https://files.pushshift.io/reddit/submissions)
 
 ### Extract
+Update [this line](https://github.com/agnes0x/Reddit-Export-Pushshift-CSV/blob/aa699a23a4604a9c6843596f5178f582d2d8fa36/Parse_Reddit.py#L20) code with your downloaded's filename, and add the name of selected subreddits to [this line](). 
 
 
 
