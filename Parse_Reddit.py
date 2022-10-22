@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 # reads in zst files downloaded from e.g. https://files.pushshift.io/reddit/comments/
-# only retains data for subreddits I specify: eg. ('wallstreetbets', 'dogecoin')
+# only retains data for subreddits I specify: eg. ('wallstreetbets', 'dogecoin'), subreddit names are case sensitive & sometimes change over time!
 # from the json, creates a separate dataframe for each specified subreddit
 # writes out dataframe as .csv
 
