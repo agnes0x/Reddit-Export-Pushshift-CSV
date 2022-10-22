@@ -18,10 +18,12 @@ Download the .zst compressed JSON files of:
 
 [posts](https://files.pushshift.io/reddit/submissions)
 
-### Extract
-Update [this line](https://github.com/agnes0x/Reddit-Export-Pushshift-CSV/blob/aa699a23a4604a9c6843596f5178f582d2d8fa36/Parse_Reddit.py#L20) code with your downloaded's filename, and add the name of selected subreddits to [this line](). 
+### Extract subreddits
+Within Parse_Reddit.py, update [this line](https://github.com/agnes0x/Reddit-Export-Pushshift-CSV/blob/aa699a23a4604a9c6843596f5178f582d2d8fa36/Parse_Reddit.py#L20) with your downloaded's filename, and add the case-sensitive name of selected subreddits to [this line](https://github.com/agnes0x/Reddit-Export-Pushshift-CSV/blob/32a15d82fb6a8de8a1f335c0f78f32b0c67ddfe9/Parse_Reddit.py#L13). Run the code & it will generate separate .csv for each subreddit. 
 
-
+Be patient! Processing the newest 30GB monthly comment datatumps may take between 1-2hrs depending on your setup. 
 
 ### Processing data 
-Prepare the extracted data for analysis. 
+Prepare the extracted data for analysis e.g. drop unnecessary columns.
+
+### Aggregate data
